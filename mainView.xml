@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--<view icon="8712" title="SamplePluginVVS" width="320" height="450">-->
+<!--<view icon="8866" title="SamplePluginVVS" width="320" height="450">-->
+<view icon="10916" title="StatsDump" width="200" height="200">
+    <control progid="DecalControls.Notebook" name="nbMain">
+    
+    <page label="Stats Dump">
+      <control progid="DecalControls.FixedLayout" clipped="">
+        <control progid="DecalControls.PushButton" name="dumpStats" left="20" top="60" width="90" height="20" text="Dump Stats Now" />
+        <!--
+        <control progid="DecalControls.StaticText" name="SampleListText" left="50" top="10" width="160" height="18" text="Every X Minutes" />
+        <control progid="DecalControls.Edit" name="dumpStatsTimer" left="5" top="10" width="30" height="16" text="" />
+        <control progid="DecalControls.CheckBox" name="SampleListCheckBox" left="170" top="385" width="150" height="20" text="Dump Stats Automatically" checked="true" />
+        -->
+      </control>
+    </page>
+<!--
+    <page label="List Box">
+      <control progid="DecalControls.FixedLayout" clipped="">
+        <control progid="DecalControls.List" name="SampleList" left="0" top="0" width="320" height="380">
+          <column progid="DecalControls.IconColumn" name="colA" fixedwidth="16" />
+          <column progid="DecalControls.TextColumn" name="colB" fixedwidth="140" />
+          <column progid="DecalControls.IconColumn" name="colC" fixedwidth="16" />
+          <column progid="DecalControls.TextColumn" name="colD" fixedwidth="80" />
+          <column progid="DecalControls.TextColumn" name="colE" fixedwidth="44" />
+          <column progid="DecalControls.TextColumn" name="colF" />
+        </control>
+        <control progid="DecalControls.StaticText" name="SampleListText" left="5" top="385" width="160" height="18" text="StaticText" />
+        <control progid="DecalControls.CheckBox" name="SampleListCheckBox" left="170" top="385" width="150" height="20" text="Refill" checked="true" />
+      </control>
+    </page>
+-->    
+  </control>
+</view>
